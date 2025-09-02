@@ -1,5 +1,5 @@
 # Without_Noise_There_Is_Nothing
-Noise–Temperature Landscape Explorer (WNIN)
+Noise–Temperature Landscape Explorer 
 
 What & why:
 - Build an interactive, research-grade tool to test the claim that “noise is a resource” in optimization and learning.
