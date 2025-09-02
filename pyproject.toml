@@ -1,0 +1,24 @@
+[project]
+name = "without-noise"
+version = "0.1.0"
+description = "Noise–Temperature Landscape Explorer: training + streaming metrics for visual experimentation"
+requires-python = ">=3.10"
+authors = [
+  { name = "WNIN Team" }
+]
+dependencies = [
+  "pydantic>=2.7.0",
+  "polars>=1.2.0",
+  "websockets>=12.0",
+  "numpy>=1.26.0",
+  "typing-extensions>=4.9.0",
+  "torch>=2.3.0; platform_system != 'Darwin' or platform_machine != 'arm64'",
+]
+
+[project.scripts]
+wnin-train = "mlviz.run:main"
+
+[tool.uv]
+package = true
+
+
