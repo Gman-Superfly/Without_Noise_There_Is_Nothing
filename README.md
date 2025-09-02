@@ -15,7 +15,7 @@ What you can test now:
 - Noise ablations (`none`, `input_jitter`) and schedules (constant/cosine/cyclical/inverse_anneal).
 - Early exploration vs late generalization trade-offs via temperature control.
 
-## Thesis (detailed and falsifiable)
+## Thesis 
 - **Claim**: Appropriately coupled noise/temperature improves exploration, enables escape from sharp basins, and yields flatter minima and better generalization compared to zero-noise training at matched training loss.
 - **Operationalization**:
   - Temperature/noise is controlled via schedules and modes (e.g., `input_jitter`, later `sgld`/`gradient_gaussian`).
